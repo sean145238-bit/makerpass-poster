@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#10362c">
+  <meta name="description" content="MakerPass 创客通行证宣传海报。下载高清原图，或在线体验跨语言硬件项目搜索、图纸翻译和带出处的问答。">
+  <meta property="og:title" content="MakerPass 创客通行证">
+  <meta property="og:description" content="用英文读懂中国开源硬件 · 海报与在线体验">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://sean145238-bit.github.io/makerpass-poster/preview.webp">
+  <meta property="og:image:alt" content="MakerPass 宣传海报，示例加热台的快充输入标注翻译为 PD input。">
+  <title>MakerPass 创客通行证 · 海报</title>
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; background: #eeeadd; color: #12372d; font-family: "Helvetica Neue", "PingFang SC", "Microsoft YaHei", sans-serif; }
+    header { border-bottom: 1px solid #c7cbbd; background: #faf6eb; }
+    .bar { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: .9rem 2rem; max-width: 58rem; margin: auto; padding: 1rem clamp(1rem, 4vw, 2rem); }
+    h1 { margin: 0; font-size: clamp(1.1rem, 3.5vw, 1.45rem); letter-spacing: -.02em; }
+    h1 span { color: #b14c2a; }
+    nav { display: flex; flex-wrap: wrap; gap: .45rem 1.1rem; align-items: center; }
+    nav a { font-weight: 650; font-size: .93rem; padding: .6rem .15rem; color: #164334; text-underline-offset: .2em; }
+    .demo { display: inline-block; background: #153c31; color: white; border-radius: .35rem; padding: .65rem .85rem; text-decoration: none; }
+    a:focus-visible { outline: 3px solid #b14c2a; outline-offset: 3px; }
+    main { max-width: 58rem; margin: 0 auto; padding: clamp(.65rem, 3vw, 2rem) clamp(.5rem, 4vw, 2rem); }
+    picture, img { display: block; }
+    img { width: 100%; height: auto; }
+    @page { size: A3 portrait; margin: 0; }
+    @media print { header { display: none; } body, main { width: 297mm; max-width: none; margin: 0; padding: 0; } }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="bar">
+      <h1>MakerPass<span>.</span> 创客通行证</h1>
+      <nav aria-label="海报和产品">
+        <a href="./makerpass-poster.png" download="MakerPass-宣传海报.png">下载海报原图</a>
+        <a class="demo" href="https://www.modelscope.cn/studios/Sean145238/sean">在线体验 MakerPass ↗</a>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <picture>
+      <source media="print" srcset="./makerpass-poster.png">
+      <img src="./preview.webp" width="1440" height="2036" fetchpriority="high" alt="MakerPass 创客通行证。用英文读懂中国开源硬件。海报用迷你加热台演示把快充输入译为 PD input。产品支持搜索、图纸翻译、查询元件料号及带出处的问答。">
+    </picture>
+  </main>
+</body>
+</html>
